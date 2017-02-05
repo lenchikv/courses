@@ -16,6 +16,8 @@ h2 {
 
 article {
 	background-color: #eee;
+	height: 1000px;
+	margin-bottom: 50px;
 }
 
 p {
