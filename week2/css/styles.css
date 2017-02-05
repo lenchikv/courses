@@ -1,0 +1,99 @@
+body {
+  font-family: 'Overpass', sans-serif;
+  font-size: 14px;
+
+}
+
+h1 {
+  font-size: 2em;
+  color: blue;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+article {
+	background-color: #eee;
+}
+
+p {
+  text-align: justify;
+  padding: 20px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+    color: white;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: grey;
+    color: grey;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	border-color: grey;
+}
+/*.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: white;
+}*/
+
+
+
+.navbar-header {
+    background-color: blue !important;
+    color: white !important;
+
+ }   
+
+ .navbar-default {
+    background-color: blue;
+    border-color: blue;
+    border-radius: 0;
+
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-collapse {
+	background-color: blue;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover  {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li {
+	text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: blue;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: blue;
+}
+
+.navbar-default .navbar-nav hr {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	h2 {
+	    padding-top: 20px;
+	}
+
+}
+
+
+@media (max-width: 768px) {
+	.navbar-default .navbar-collapse {
+		background-color: white;
+	} 
+}
