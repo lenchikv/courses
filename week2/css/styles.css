@@ -29,12 +29,12 @@ p {
 }
 
 .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: grey;
-    color: grey;
+    background-color: LightBlue;
+    color: LightBlue;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-	border-color: grey;
+	border-color: LightBlue;
 }
 /*.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
     color: white;
@@ -90,10 +90,20 @@ p {
 	}
 
 }
-
+@media (max-width: 991px) {
+	
+	
+}
 
 @media (max-width: 768px) {
+	h2 {
+		padding-top: 10px;
+	}
 	.navbar-default .navbar-collapse {
 		background-color: white;
 	} 
+	article {
+	    margin: 15px 30px;
+	    padding: 10px;
+	}  
 }
