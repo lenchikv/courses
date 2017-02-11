@@ -60,10 +60,10 @@ for (var i=0; i < names.length; i++) {
  if (firstLetter == 'j') {
      //byeSpeaker.xxxx
      byeSpeaker.speak(names[i])
-     //console.log('Buy ' + names[i]);
+     console.log('Buy ' + names[i]);
   } else {
      helloSpeaker.speak(names[i])
-     //console.log('Hi ' + names[i]);
+     console.log('Hi ' + names[i]);
   }
 }
 
