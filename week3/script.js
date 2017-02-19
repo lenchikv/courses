@@ -40,6 +40,15 @@ WARNING!!! WARNING!!!
 // using the 'speak' method or either helloSpeaker's or byeSpeaker's
 // 'speak' method.
 // See Lecture 50, part 1
+//Another way/
+// for (var name in names) {
+//     var firstLetter = names[name].charAt(0).toLowerCase();
+//     if (firstLetter === 'j') {
+//       byeSpeaker.speak(names[name]);
+//     } else {
+//       helloSpeaker.speak(names[name]);
+//     }
+//   }
 for (var i=0; i < names.length; i++) {
   //console.log(names[i]);
   // STEP 11:
@@ -69,4 +78,4 @@ for (var i=0; i < names.length; i++) {
 
 }
 
-  )()
+  )();
